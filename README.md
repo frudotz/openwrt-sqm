@@ -17,7 +17,7 @@ Bu rehberimizde OpenWRT cihazınıza SQM kurulumu yaparak **bufferbloat** sorunu
 </details>
 
 
-## ⚡ SQM Ne İşe Yarar?
+# ⚡ SQM Ne İşe Yarar?
 
 - SQM, ağ trafiğini akıllıca yöneterek bufferbloat’ı azaltır.
 - Birden çok cihaz aktifken bile daha düşük ve stabil ping sağlar.  
@@ -26,7 +26,7 @@ Bu rehberimizde OpenWRT cihazınıza SQM kurulumu yaparak **bufferbloat** sorunu
 > 🔧 SQM bir sihir değil hattını fiber yapmaz, ama hattının potansiyelini sonuna kadar kullandırır.
 
 
-## 🚀 SQM Paket Kurulumu
+# 🚀 SQM Paket Kurulumu
 
 Herhangi bir uçbirim üzerinden cihaza SSH ile bağlanarak aşağıdaki komutları girin.  
 
@@ -42,14 +42,14 @@ LuCI web arayüzünde şu menü gelir:
 **Network → SQM/QoS**
 
 
-## 🧩 Pratik Ayar Önerileri
+# 🧩 Pratik Ayar Önerileri
 
 - Download/upload değerini hızının %85-90’ı kadar gir. (Kbps cinsinden, 100 Mbps → 102400 Kbps)
 - Queue discipline olarak `cake` → modern & en dengeli.
 - Script olarak `piece_of_cake.qos` → ilk kurulum için hızlı ve temiz çözüm.
 
 
-## 📊 Performans Testi
+# 📊 Performans Testi
 
 Kurulum sonrası bufferbloat testi için:
 - [Waveform Bufferbloat Test](https://www.waveform.com/tools/bufferbloat)
@@ -60,9 +60,9 @@ Kurulum sonrası bufferbloat testi için:
 - Bufferbloat sonucu: **A veya A+**
 
 
-## 🔧 Sık Sorulan Sorular
+# 🔧 Sık Sorulan Sorular
 
-**S:** Download’u tam ISS hızına yazsam?  
+**S:** Download’u tam ISS hızında yazsam?  
 **C:** Upload sırasında ping zıplayabilir. %85-90 cıvarı idealdir.
 
 **S:** `fq_codel` mi `cake` mi?  
@@ -71,13 +71,10 @@ Kurulum sonrası bufferbloat testi için:
 **S:** LuCI yok, CLI’dan?  
 **C:** `sqm-scripts` paketini kur → `/etc/config/sqm` dosyasını elle düzenle.
 
-## 🤝 Katkıda Bulun / Bağış
-Yanlış gördüğünüz veya eklemek istediğiniz bir şey varsa:  
-PR/Issue açarak ya da DM’den yazazarak iletebilirsiniz.  
-Kod kadar fikir de katkıdır. 🙏  
 
-### [🍻 Bir bira ısmarla](https://coff.ee/frudotz)
-Rehberimizi faydalı bulduysanız, destek olabilirsiniz.
+# 🤝 Katkıda Bulun / Bağış
+  - Yanlış gördüğünüz veya eklemek istediğiniz şeyleri PR/Issue açarak iletebilirsiniz.  
+  - Rehberimizi faydalı bulduysanız [🍻 bir bira ısmarlayarak](https://coff.ee/frudotz) bana destek olabilirsiniz.
 
 
 # 🗃️ Kaynaklar
