@@ -6,7 +6,7 @@ Bu rehberimizde OpenWRT cihazınıza SQM kurulumu yaparak **bufferbloat** sorunu
 <details>
   <summary>📋 İçindekiler</summary>
   <ol>
-    <li><a href="#-sqm-ne-işe-yarar">⚡ SQM Ne İşe Yarar?</a></li>
+    <li><a href="#-sqm-ne-i%CC%87%C5%9Fe-yarar">⚡ SQM Ne İşe Yarar?</a></li>
     <li><a href="#-sqm-paket-kurulumu">🚀 SQM Paket Kurulumu</a></li>
     <li><a href="#-pratik-ayar-önerileri">🧩 Pratik Ayar Önerileri</a></li>
     <li><a href="#-performans-testi">📊 Performans Testi</a></li>
