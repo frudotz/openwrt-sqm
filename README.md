@@ -11,6 +11,7 @@ Bu rehberimizde OpenWRT cihazınıza SQM kurulumu yaparak **bufferbloat** sorunu
     <li><a href="#-pratik-ayar-önerileri">🧩 Pratik Ayar Önerileri</a></li>
     <li><a href="#-performans-testi">📊 Performans Testi</a></li>
     <li><a href="#-sık-sorulan-sorular">🔧 Sık Sorulan Sorular</a></li>
+    <li><a href="#-katkıda-bulun--bağış">🤝 Katkıda Bulun / Bağış</a></li>
     <li><a href="#️-kaynaklar">🗃️ Kaynaklar</a></li>
   </ol>
 </details>
@@ -69,6 +70,14 @@ Kurulum sonrası bufferbloat testi için:
 
 **S:** LuCI yok, CLI’dan?  
 **C:** `sqm-scripts` paketini kur → `/etc/config/sqm` dosyasını elle düzenle.
+
+## 🤝 Katkıda Bulun / Bağış
+Yanlış gördüğünüz veya eklemek istediğiniz bir şey varsa:  
+PR/Issue açarak ya da DM’den yazazarak iletebilirsiniz.  
+Kod kadar fikir de katkıdır. 🙏  
+
+### [🍻 Bir bira ısmarla](https://coff.ee/frudotz)
+Rehberimizi faydalı bulduysanız, destek olabilirsiniz.
 
 
 # 🗃️ Kaynaklar
